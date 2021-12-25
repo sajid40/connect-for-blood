@@ -1,0 +1,116 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image:url(/image/nguy-n-hi-p-sTTeaN4wwrU-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+/* header{
+    box-shadow: 0px 5px 5px rgb(201, 201, 201);
+} */
+.logo{
+    height: 90px;
+}
+.logo img{
+    width: 8%;
+    margin: 1% 1%;
+}
+.navbar{
+    height: 60px;
+    text-align: center;
+    
+}
+.nav-eliment{
+    display: inline-block;
+    text-decoration: none;
+    
+    width: 10%;
+    
+    text-align: center;
+    padding: 1%;
+    margin: 0% 4% 0% 2%;
+    border-radius: 30px;
+    font-size: 100%;
+    
+    
+}
+.nav-eliment a{
+    text-decoration: none;
+    
+    
+}
+.present-color{
+    background-color: rgb(255,0,56);
+    color: rgb(255, 255, 255);
+    
+}
+.off-color {
+    background-color: rgb(255, 253, 255);
+    color:rgb(255,0,56) ;
+    
+}
+.off-color:hover{
+    background-color: rgb(99, 96, 99)
+}
+.login{
+    text-align: center;
+    margin-top: 2%;
+}
+.login-align{
+    background-color: rgba(255, 255, 255, 0.616);
+    display: inline-block;
+    padding: 5% 5%;
+    border-radius: 20px;
+    /* opacity: 0.7; */
+}
+
+.border{
+    border: none;
+    border-bottom: solid rgb(255,0,56);
+    width: 100%;
+    font-size: 100%;
+    font-weight: 500;
+    /* opacity: 1; */
+    
+}
+.marg{
+    text-align: left;
+    /* opacity: 1; */
+}
+.marg a{
+    text-decoration: none;
+
+}
+.login-button {
+    color: rgb(7, 7, 7);
+    background-color: rgb(99, 96, 99);
+    width: 35%;
+    padding: 5%;
+    border-radius: 40px;
+    font-weight: 900;
+    font-size: 100%;
+    text-align: center;
+
+    
+}
+.login-button:hover{
+    background-color:rgb(255,0,56) ;
+}
+.not-reg{
+    font-weight: 600;
+    font-size: 100%;
+    
+}
+.reg-now{
+    border: solid rgb(255,0,56) ;
+    width: 50%;
+    padding: 5%;
+    border-radius: 40px;
+    color: black;
+}
+.reg-now:hover{
+    background-color:rgb(255,0,56) ;
+}
